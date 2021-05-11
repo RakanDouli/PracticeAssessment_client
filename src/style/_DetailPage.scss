@@ -1,0 +1,28 @@
+.Detail-Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin: 3rem;
+  }
+  .Detail-Card {
+    width: 50%;
+    margin: 1rem;
+    padding: 5rem;
+    box-shadow: 5px 5px 20px -10px rgba(125, 125, 125, 1);
+    ul {
+      margin-top: 3rem;
+      text-align: left;
+    }
+    li {
+      margin: 1rem;
+    }
+    .prescription {
+      display: inline-block;
+      border-bottom: 1px solid red;
+      padding: 0.2rem;
+      margin: 0.3rem;
+    }
+  }
+}

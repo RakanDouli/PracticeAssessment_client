@@ -1,0 +1,20 @@
+.DoctorSchedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  table {
+    border: 1px solid $primary;
+    width: 60%;
+    margin: 2rem;
+    tr {
+      &:first-of-type {
+        background-color: $secondary;
+      }
+    }
+    th {
+      border: 1px solid $primary;
+      padding: 1rem;
+    }
+  }
+}
